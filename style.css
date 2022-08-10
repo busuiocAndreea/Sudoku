@@ -1,0 +1,42 @@
+body {
+  margin: 8;
+  background-color: midnightblue;
+}
+.puzzleCell {
+  background-color: #ebebeb;
+  border-width: thin;
+  vertical-align: top;
+  font-size: 30px;
+  margin-top: -1px;
+  width: 60px;
+  height: 60px;
+}
+.puzzleCell:hover {
+  background-color: #ebebeb;
+}
+.selectedCell {
+  border-color: black;
+  border-width: medium;
+  outline: none;
+  box-shadow: none;
+}
+.keyboardButton {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  border-width: thin;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.gameTitle {
+  color: white;
+  font-size: 70px;
+  
+}
+.rightBorder {
+  border-right-width: 4px;
+}
+.bottomBorder {
+  border-bottom-width: 4px;
+}
